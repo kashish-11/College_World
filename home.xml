@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ tools:context=".home">
+ <ScrollView
+ android:layout_width="match_parent"
+ android:layout_height="match_parent">
+ <LinearLayout
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:gravity="top"
+ android:orientation="vertical">
+ <ImageView
+ android:id="@+id/imageView"
+ android:layout_width="80dp"
+ android:layout_height="80dp"
+ android:layout_marginLeft="17dp"
+ app:srcCompat="@drawable/logo" />
+ <Button
+ android:id="@+id/logout"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_marginTop="-70dp"
+ android:layout_marginLeft="280dp"
+ android:text="LOG OUT"
+ tools:ignore="InvalidId" />
+ <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_marginLeft="50dp"
+ android:layout_marginTop="20dp"
+ android:text="COLLEGE WORLD"
+ android:textSize="40dp"
+ android:textStyle="bold"
+ android:textColor="@color/design_default_color_primary_dark"/>
+ <ImageView
+ android:layout_width="match_parent"
+ android:layout_height="180dp"
+ android:layout_marginLeft="15dp"
+ android:layout_marginRight="15dp"
+ android:layout_marginTop="15dp"
+ android:src="@drawable/c1" />
+ <ImageView
+ android:layout_width="220dp"
+ android:layout_height="180dp"
+ android:layout_marginLeft="5dp"
+ android:layout_marginTop="5dp"
+ android:src="@drawable/c3" />
+ <Spinner
+ android:id="@+id/spin1"
+ android:layout_width="180dp"
+ android:layout_height="50dp"
+ android:layout_marginLeft="230dp"
+ android:layout_marginTop="-170dp"
+ />
+ <Spinner
+ android:id="@+id/spin2"
+ android:layout_width="180dp"
+ android:layout_height="50dp"
+ android:layout_marginLeft="230dp"
+ android:layout_marginTop="10dp"/>
+ <Spinner
+ android:id="@+id/spin3"
+ android:layout_width="180dp"
+ android:layout_height="50dp"
+ android:layout_marginLeft="230dp"
+ android:layout_marginTop="10dp"/>
+<TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_marginLeft="150dp"
+ android:layout_marginTop="20dp"
+ android:textStyle="bold"
+ android:textColor="@color/teal_700"
+ android:text="ABOUT US"
+ android:textSize="30dp"/>
+ <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="@string/about_us"
+ android:layout_marginTop="10dp"
+ android:textStyle="italic"
+ android:textColor="@color/black"
+ android:textSize="15dp"/>
+ <ImageView
+ android:layout_width="match_parent"
+ android:layout_height="180dp"
+ android:layout_marginLeft="5dp"
+ android:layout_marginTop="5dp"
+ android:src="@drawable/c4" />
+ <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_marginLeft="150dp"
+ android:layout_marginTop="20dp"
+ android:textStyle="bold"
+ android:textColor="@color/teal_700"
+ android:text="NOTICE"
+ android:textSize="30dp"/>
+ <ListView
+ android:id="@+id/list1"
+ android:layout_width="wrap_content"
+ android:layout_height="200dp"
+ android:layout_marginTop="10dp"
+ android:contextClickable="true"/>
+ <ImageView
+ android:layout_width="match_parent"
+ android:layout_height="180dp"
+ android:layout_marginLeft="5dp"
+ android:layout_marginTop="5dp"
+ android:src="@drawable/c2" />
+ <TextView
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:layout_marginTop="35dp"
+ android:textSize="15dp"
+ android:layout_marginLeft="25dp"
+ android:text="Helpline numbers : +91-999999999, 011-25110067 "/>
+ </LinearLayout>
+ </ScrollView>
+</LinearLayout>
