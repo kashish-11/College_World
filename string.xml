@@ -1,0 +1,28 @@
+<resources>
+ <string name="app_name">College World</string>
+ <string name="about_us">Sri Guru Tegh Bahadur Khalsa College, a constituent 
+college of University of Delhi, was established in 1951 and is maintained by Delhi 
+Sikh Gurudwara Management Committee (DSGMC), a statutory body established under an 
+act of the Parliament of India. The focus of the College at the time of inception was 
+to ensure a comprehensive social transformation through access to quality education, 
+in particular to young Punjabi Refugees of Partition in 1947, and to conserve and 
+promote Punjabi language, culture, and heritage.</string>
+ <string-array name="Socities">
+ <item>SOCITIES</item>
+ <item>Strokes</item>
+ <item>Anhad</item>
+ <item>Enactus</item>
+ </string-array>
+ <string-array name="Faculty">
+ <item>FACULTY</item>
+ <item>Dr.Nimmi Singh</item>
+ <item>Dr.P.D.Sharma</item>
+ <item>Dr.Satish Verma</item>
+ </string-array>
+ <string-array name="Time_Table">
+ <item>TIME TABLE</item>
+ <item>B.Sc</item>
+ <item>B.Com</item>
+ <item>B.A</item>
+ 
+</resources>
